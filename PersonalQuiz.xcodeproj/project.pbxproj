@@ -39,49 +39,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7E065B22288877E300AAC879 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				7E46787428872A2300630AA0 /* AppDelegate.swift */,
-				7E46787628872A2300630AA0 /* SceneDelegate.swift */,
-				7E46788228872A2600630AA0 /* Info.plist */,
-			);
-			path = App;
-			sourceTree = "<group>";
-		};
-		7E065B23288878B600AAC879 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				7E46787828872A2300630AA0 /* ViewController.swift */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		7E065B24288878EF00AAC879 /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				7E46787A28872A2300630AA0 /* Main.storyboard */,
-				7E46787F28872A2600630AA0 /* LaunchScreen.storyboard */,
-			);
-			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		7E065B252888796600AAC879 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				7E46787D28872A2600630AA0 /* Assets.xcassets */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		7E065B26288879B100AAC879 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				7E065B2728887ACC00AAC879 /* Question.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		7E46786828872A2200630AA0 = {
 			isa = PBXGroup;
 			children = (
@@ -101,11 +58,14 @@
 		7E46787328872A2200630AA0 /* PersonalQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				7E065B23288878B600AAC879 /* ViewControllers */,
-				7E065B26288879B100AAC879 /* Models */,
-				7E065B24288878EF00AAC879 /* Storyboards */,
-				7E065B22288877E300AAC879 /* App */,
-				7E065B252888796600AAC879 /* Resources */,
+				7E46787828872A2300630AA0 /* ViewController.swift */,
+				7E065B2728887ACC00AAC879 /* Question.swift */,
+				7E46787A28872A2300630AA0 /* Main.storyboard */,
+				7E46787F28872A2600630AA0 /* LaunchScreen.storyboard */,
+				7E46787428872A2300630AA0 /* AppDelegate.swift */,
+				7E46787628872A2300630AA0 /* SceneDelegate.swift */,
+				7E46788228872A2600630AA0 /* Info.plist */,
+				7E46787D28872A2600630AA0 /* Assets.xcassets */,
 			);
 			path = PersonalQuiz;
 			sourceTree = "<group>";
