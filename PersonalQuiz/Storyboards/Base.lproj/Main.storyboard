@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Question View Controller-->
+        <!--Questions View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="QuestionViewController" customModule="PersonalQuiz" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="QuestionsViewController" customModule="PersonalQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -87,7 +87,7 @@
         <!--Вопрос №-->
         <scene sceneID="Lza-Xr-9SV">
             <objects>
-                <viewController id="Nvl-c2-oYF" customClass="QuestionViewController" customModule="PersonalQuiz" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Nvl-c2-oYF" customClass="QuestionsViewController" customModule="PersonalQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AFL-Wx-m9T">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -251,6 +251,16 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="multipleStackView" destination="AiN-bD-Uga" id="l56-bh-6Vj"/>
+                        <outlet property="singleStackView" destination="qYa-lA-Y6x" id="UcW-qJ-pmO"/>
+                        <outletCollection property="singleButtons" destination="Bs8-IA-iNd" collectionClass="NSMutableArray" id="MrX-f9-kVi"/>
+                        <outletCollection property="singleButtons" destination="lML-5E-whk" collectionClass="NSMutableArray" id="Dlp-n8-tad"/>
+                        <outletCollection property="singleButtons" destination="hxt-yG-RkK" collectionClass="NSMutableArray" id="maY-rH-iM3"/>
+                        <outletCollection property="singleButtons" destination="GI5-eX-H0a" collectionClass="NSMutableArray" id="YbW-5e-uK3"/>
+                        <outletCollection property="multipleLabels" destination="Miv-2b-9ok" collectionClass="NSMutableArray" id="mlX-FG-BNC"/>
+                        <outletCollection property="multipleLabels" destination="HsU-DV-0Zl" collectionClass="NSMutableArray" id="40Y-60-VRf"/>
+                        <outletCollection property="multipleLabels" destination="SIl-Na-ID5" collectionClass="NSMutableArray" id="qk5-Yw-ojs"/>
+                        <outletCollection property="multipleLabels" destination="kJN-Xu-1xs" collectionClass="NSMutableArray" id="mn1-3F-25I"/>
                         <segue destination="aaL-Qi-9pW" kind="show" identifier="showResult" id="tDQ-zh-967"/>
                     </connections>
                 </viewController>
