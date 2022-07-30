@@ -46,7 +46,6 @@
 			children = (
 				7E46787428872A2300630AA0 /* AppDelegate.swift */,
 				7E46787628872A2300630AA0 /* SceneDelegate.swift */,
-				7E46788228872A2600630AA0 /* Info.plist */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -104,6 +103,7 @@
 		7E46787328872A2200630AA0 /* PersonalQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				7E46788228872A2600630AA0 /* Info.plist */,
 				7E065B23288878B600AAC879 /* ViewControllers */,
 				7E065B26288879B100AAC879 /* Models */,
 				7E065B24288878EF00AAC879 /* Storyboards */,
@@ -336,7 +336,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PersonalQuiz/App/Info.plist;
+				INFOPLIST_FILE = PersonalQuiz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -363,7 +363,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PersonalQuiz/App/Info.plist;
+				INFOPLIST_FILE = PersonalQuiz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
