@@ -10,12 +10,16 @@ import UIKit
 class QuestionsViewController: UIViewController {
     
     @IBOutlet var singleStackView: UIStackView!
-    
-    private let question = Question.getQuestions()
     @IBOutlet var singleButtons: [UIButton]!
     
-    @IBOutlet var multipleStackView: UIStackView!// рпвппапапа
+    @IBOutlet var multipleStackView: UIStackView!
     @IBOutlet var multipleLabels: [UILabel]!
+    @IBOutlet var multipleSwitches: [UISwitch]!
+    @IBOutlet var rangeStackView: UIStackView!
+    @IBOutlet var rangedLabels: [UILabel]!
+    
+    
+    private let question = Question.getQuestions()
     
     override func viewDidLoad() {
         super.viewDidLoad()

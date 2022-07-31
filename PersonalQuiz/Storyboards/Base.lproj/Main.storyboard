@@ -252,6 +252,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="multipleStackView" destination="AiN-bD-Uga" id="l56-bh-6Vj"/>
+                        <outlet property="rangeStackView" destination="2b8-Vb-WGe" id="L7W-TH-nfo"/>
                         <outlet property="singleStackView" destination="qYa-lA-Y6x" id="UcW-qJ-pmO"/>
                         <outletCollection property="singleButtons" destination="Bs8-IA-iNd" collectionClass="NSMutableArray" id="MrX-f9-kVi"/>
                         <outletCollection property="singleButtons" destination="lML-5E-whk" collectionClass="NSMutableArray" id="Dlp-n8-tad"/>
@@ -261,6 +262,12 @@
                         <outletCollection property="multipleLabels" destination="HsU-DV-0Zl" collectionClass="NSMutableArray" id="40Y-60-VRf"/>
                         <outletCollection property="multipleLabels" destination="SIl-Na-ID5" collectionClass="NSMutableArray" id="qk5-Yw-ojs"/>
                         <outletCollection property="multipleLabels" destination="kJN-Xu-1xs" collectionClass="NSMutableArray" id="mn1-3F-25I"/>
+                        <outletCollection property="multipleSwitches" destination="pta-UQ-uaD" collectionClass="NSMutableArray" id="Doz-k5-sSe"/>
+                        <outletCollection property="multipleSwitches" destination="4Ap-se-dzt" collectionClass="NSMutableArray" id="NNI-sc-kbn"/>
+                        <outletCollection property="multipleSwitches" destination="uGT-Cd-c4b" collectionClass="NSMutableArray" id="bg1-fa-Cl1"/>
+                        <outletCollection property="multipleSwitches" destination="hzE-vO-KqG" collectionClass="NSMutableArray" id="QRH-XP-yH4"/>
+                        <outletCollection property="rangedLabels" destination="1aT-oE-9ry" collectionClass="NSMutableArray" id="I2i-Na-qNC"/>
+                        <outletCollection property="rangedLabels" destination="anV-Pa-Qfj" collectionClass="NSMutableArray" id="IxW-ax-K3W"/>
                         <segue destination="aaL-Qi-9pW" kind="show" identifier="showResult" id="tDQ-zh-967"/>
                     </connections>
                 </viewController>
