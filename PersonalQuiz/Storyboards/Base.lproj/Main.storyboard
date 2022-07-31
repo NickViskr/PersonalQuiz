@@ -99,21 +99,33 @@
                                         <rect key="frame" x="121" y="0.0" width="46" height="30"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="singleButtonAnswerPressed:" destination="Nvl-c2-oYF" eventType="touchUpInside" id="d8C-P6-T1m"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lML-5E-whk">
                                         <rect key="frame" x="121" y="46" width="46" height="30"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="singleButtonAnswerPressed:" destination="Nvl-c2-oYF" eventType="touchUpInside" id="Gaw-va-kjM"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hxt-yG-RkK">
                                         <rect key="frame" x="121" y="92" width="46" height="30"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="singleButtonAnswerPressed:" destination="Nvl-c2-oYF" eventType="touchUpInside" id="BgA-9X-3yQ"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GI5-eX-H0a">
                                         <rect key="frame" x="121" y="138" width="46" height="30"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="singleButtonAnswerPressed:" destination="Nvl-c2-oYF" eventType="touchUpInside" id="cf7-HY-VWg"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -180,6 +192,9 @@
                                         <rect key="frame" x="0.0" y="220" width="288" height="30"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Ответить"/>
+                                        <connections>
+                                            <action selector="multipleAnswerButtonPressed" destination="Nvl-c2-oYF" eventType="touchUpInside" id="pNN-yc-GK5"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -210,6 +225,9 @@
                                         <rect key="frame" x="0.0" y="82.5" width="288" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Ответить"/>
+                                        <connections>
+                                            <action selector="rangedAnswerButtonPressed" destination="Nvl-c2-oYF" eventType="touchUpInside" id="Z7x-ES-hHS"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -253,6 +271,7 @@
                     <connections>
                         <outlet property="multipleStackView" destination="AiN-bD-Uga" id="l56-bh-6Vj"/>
                         <outlet property="rangeStackView" destination="2b8-Vb-WGe" id="L7W-TH-nfo"/>
+                        <outlet property="rangedSlider" destination="uji-eo-Ij5" id="Lgb-D1-dMl"/>
                         <outlet property="singleStackView" destination="qYa-lA-Y6x" id="UcW-qJ-pmO"/>
                         <outletCollection property="singleButtons" destination="Bs8-IA-iNd" collectionClass="NSMutableArray" id="MrX-f9-kVi"/>
                         <outletCollection property="singleButtons" destination="lML-5E-whk" collectionClass="NSMutableArray" id="Dlp-n8-tad"/>
