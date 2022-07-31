@@ -270,6 +270,8 @@
                     </navigationItem>
                     <connections>
                         <outlet property="multipleStackView" destination="AiN-bD-Uga" id="l56-bh-6Vj"/>
+                        <outlet property="questionLabel" destination="ua3-sC-ijm" id="qmh-yq-AqN"/>
+                        <outlet property="questionProgressView" destination="hna-cw-stt" id="RxC-oZ-ZD1"/>
                         <outlet property="rangeStackView" destination="2b8-Vb-WGe" id="L7W-TH-nfo"/>
                         <outlet property="rangedSlider" destination="uji-eo-Ij5" id="Lgb-D1-dMl"/>
                         <outlet property="singleStackView" destination="qYa-lA-Y6x" id="UcW-qJ-pmO"/>
