@@ -17,6 +17,7 @@ class QuestionsViewController: UIViewController {
     @IBOutlet var multipleSwitches: [UISwitch]!
     @IBOutlet var rangeStackView: UIStackView!
     @IBOutlet var rangedLabels: [UILabel]!
+    @IBOutlet var rangedSlider: UISlider!
     
     
     private let question = Question.getQuestions()
@@ -26,6 +27,13 @@ class QuestionsViewController: UIViewController {
         
     }
 
-
+    @IBAction func singleButtonAnswerPressed(_ sender: UIButton) {
+    }
+    @IBAction func multipleAnswerButtonPressed() {
+    }
+    
+    @IBAction func rangedAnswerButtonPressed() {
+    }
+    
 }
 
