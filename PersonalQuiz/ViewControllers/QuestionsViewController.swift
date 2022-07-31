@@ -70,6 +70,8 @@ extension QuestionsViewController {
         
         questionProgressView?.setProgress(totalProgress, animated: true)
         
+        // новое
+        
     }
 }
 
