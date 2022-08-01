@@ -25,6 +25,9 @@ class QuestionsViewController: UIViewController {
     
     private let question = Question.getQuestions()
     private var questionIndex = 0
+    private var currentAnswers: [Answer] {
+        question[questionIndex].answers
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -72,6 +75,25 @@ extension QuestionsViewController {
         
         // новое ваввававввыывыаы
         
+        // Set navigation title
+        title = "Вопрос № \(questionIndex + 1) из \(question.count)"
+        
+        showCurrentAnswers(for: currentQuestion.responseType)
+        
+    }
+    private func showCurrentAnswers(for type: ResponseType) {
+        switch type {
+        case .single: showSingleStackView(with: currentAnswers)
+        case .multiple: break
+        case .ranger: break
+        }
+    }
+    
+    private func showSingleStackView(with answers: [Answer]) {
+        singleStackView.isHidden = false
+        
+        for (button, answer) in zip(singleButtons, answers) {
+            button.setTitle(answer.title, for: .normal)
+        }
     }
 }
-
