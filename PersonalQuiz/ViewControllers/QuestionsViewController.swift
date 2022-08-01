@@ -73,8 +73,6 @@ extension QuestionsViewController {
         
         questionProgressView?.setProgress(totalProgress, animated: true)
         
-        // новое ваввававввыывыаы
-        
         // Set navigation title
         title = "Вопрос № \(questionIndex + 1) из \(question.count)"
         

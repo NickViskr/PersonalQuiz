@@ -15,7 +15,7 @@ class ResultViewController: UIViewController {
     
     }
     
-    @IBAction func doneButtonPressed(_ sender: Any) {
+    @IBAction func doneButtonPressed(_ sender: UIBarButtonItem) {
 //        view.window?.rootViewController?.dismiss(animated: true) используется если нет NavigationController
         navigationController?.dismiss(animated: true)
     }
